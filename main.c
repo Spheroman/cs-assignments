@@ -1,28 +1,49 @@
 #include <stdio.h>
 #include <math.h>
 
+
 int main() {
-    char in[10000];
-    char ascii[128];
-    for(int i = 0; i < 128; i++) {
-        ascii[i] = -2;
-    }
-    scanf("%s", &in);
-    int cur = 0, max = 0, a = -1, b = 0, ma = 0;
-    while (in[cur] != 0) {
-        if(ascii[in[cur]] > a){
-            a = ascii[in[cur]];
+    int c, s, i, j, fail = 0, avg = 0, tot, temp, stud = 0;
+    scanf("%i %i", &c, &s);
+    int courses[c][3];
+    for(i = 0; i < c; i++){
+        for(j = 0; j < 3; j++){
+            scanf("%i", &courses[i][j]);
         }
-        if(max < (cur - a)){
-            max = cur - a;
-            ma = a;
-            b = cur;
+    }
+    int scores[s][2];
+    for(i = 0; i < s; i++){
+        for(j = 0; j < 2; j++){
+            scanf("%i", &scores[i][j]);
         }
-        ascii[in[cur]] = cur;
-        cur++;
     }
-    for(int i = ma+1; i <= b; i++){
-        printf("%c", in[i]);
+    int students[c];
+    for(i = 0; i < c; i++){
+        temp = 0;
+        for(j = 0; j < c; j++)
+            if(students[j] == courses[i][0])
+                temp = 1;
+        if(!temp){
+            students[i] = courses[i][0];
+            stud++;
+        }
     }
+
+    for(i = 0; i < stud; i++){
+        tot = 0;
+        avg = 0;
+        for(j = 0; scores[j][0] != students[i]; j++);
+        while(j < s){
+            while(scores[j][0] == students[i]){
+                avg+=scores[j][1];
+                tot+=60;
+                j++;
+            }
+            j++;
+        }
+        if(avg < tot)
+            fail++;
+    }
+    printf("%i %i", stud, fail);
 
 }
