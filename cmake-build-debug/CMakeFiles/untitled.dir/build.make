@@ -83,17 +83,81 @@ CMakeFiles/untitled.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/main.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jack/Documents/GitHub/cs-assignments/main.c -o CMakeFiles/untitled.dir/main.c.s
 
+CMakeFiles/untitled.dir/w12q3.c.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/w12q3.c.o: ../w12q3.c
+CMakeFiles/untitled.dir/w12q3.c.o: CMakeFiles/untitled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jack/Documents/GitHub/cs-assignments/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled.dir/w12q3.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/w12q3.c.o -MF CMakeFiles/untitled.dir/w12q3.c.o.d -o CMakeFiles/untitled.dir/w12q3.c.o -c /Users/jack/Documents/GitHub/cs-assignments/w12q3.c
+
+CMakeFiles/untitled.dir/w12q3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/w12q3.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jack/Documents/GitHub/cs-assignments/w12q3.c > CMakeFiles/untitled.dir/w12q3.c.i
+
+CMakeFiles/untitled.dir/w12q3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/w12q3.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jack/Documents/GitHub/cs-assignments/w12q3.c -o CMakeFiles/untitled.dir/w12q3.c.s
+
+CMakeFiles/untitled.dir/w12q4.c.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/w12q4.c.o: ../w12q4.c
+CMakeFiles/untitled.dir/w12q4.c.o: CMakeFiles/untitled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jack/Documents/GitHub/cs-assignments/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/untitled.dir/w12q4.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/w12q4.c.o -MF CMakeFiles/untitled.dir/w12q4.c.o.d -o CMakeFiles/untitled.dir/w12q4.c.o -c /Users/jack/Documents/GitHub/cs-assignments/w12q4.c
+
+CMakeFiles/untitled.dir/w12q4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/w12q4.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jack/Documents/GitHub/cs-assignments/w12q4.c > CMakeFiles/untitled.dir/w12q4.c.i
+
+CMakeFiles/untitled.dir/w12q4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/w12q4.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jack/Documents/GitHub/cs-assignments/w12q4.c -o CMakeFiles/untitled.dir/w12q4.c.s
+
+CMakeFiles/untitled.dir/w12q5.c.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/w12q5.c.o: ../w12q5.c
+CMakeFiles/untitled.dir/w12q5.c.o: CMakeFiles/untitled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jack/Documents/GitHub/cs-assignments/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/untitled.dir/w12q5.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/w12q5.c.o -MF CMakeFiles/untitled.dir/w12q5.c.o.d -o CMakeFiles/untitled.dir/w12q5.c.o -c /Users/jack/Documents/GitHub/cs-assignments/w12q5.c
+
+CMakeFiles/untitled.dir/w12q5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/w12q5.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jack/Documents/GitHub/cs-assignments/w12q5.c > CMakeFiles/untitled.dir/w12q5.c.i
+
+CMakeFiles/untitled.dir/w12q5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/w12q5.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jack/Documents/GitHub/cs-assignments/w12q5.c -o CMakeFiles/untitled.dir/w12q5.c.s
+
+CMakeFiles/untitled.dir/w12q6.c.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/w12q6.c.o: ../w12q6.c
+CMakeFiles/untitled.dir/w12q6.c.o: CMakeFiles/untitled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jack/Documents/GitHub/cs-assignments/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/untitled.dir/w12q6.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled.dir/w12q6.c.o -MF CMakeFiles/untitled.dir/w12q6.c.o.d -o CMakeFiles/untitled.dir/w12q6.c.o -c /Users/jack/Documents/GitHub/cs-assignments/w12q6.c
+
+CMakeFiles/untitled.dir/w12q6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/w12q6.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jack/Documents/GitHub/cs-assignments/w12q6.c > CMakeFiles/untitled.dir/w12q6.c.i
+
+CMakeFiles/untitled.dir/w12q6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/w12q6.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jack/Documents/GitHub/cs-assignments/w12q6.c -o CMakeFiles/untitled.dir/w12q6.c.s
+
 # Object files for target untitled
 untitled_OBJECTS = \
-"CMakeFiles/untitled.dir/main.c.o"
+"CMakeFiles/untitled.dir/main.c.o" \
+"CMakeFiles/untitled.dir/w12q3.c.o" \
+"CMakeFiles/untitled.dir/w12q4.c.o" \
+"CMakeFiles/untitled.dir/w12q5.c.o" \
+"CMakeFiles/untitled.dir/w12q6.c.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled: CMakeFiles/untitled.dir/main.c.o
+untitled: CMakeFiles/untitled.dir/w12q3.c.o
+untitled: CMakeFiles/untitled.dir/w12q4.c.o
+untitled: CMakeFiles/untitled.dir/w12q5.c.o
+untitled: CMakeFiles/untitled.dir/w12q6.c.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jack/Documents/GitHub/cs-assignments/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jack/Documents/GitHub/cs-assignments/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable untitled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

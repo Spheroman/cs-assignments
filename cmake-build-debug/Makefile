@@ -153,6 +153,102 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.c.s
 .PHONY : main.c.s
 
+w12q3.o: w12q3.c.o
+.PHONY : w12q3.o
+
+# target to build an object file
+w12q3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/w12q3.c.o
+.PHONY : w12q3.c.o
+
+w12q3.i: w12q3.c.i
+.PHONY : w12q3.i
+
+# target to preprocess a source file
+w12q3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/w12q3.c.i
+.PHONY : w12q3.c.i
+
+w12q3.s: w12q3.c.s
+.PHONY : w12q3.s
+
+# target to generate assembly for a file
+w12q3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/w12q3.c.s
+.PHONY : w12q3.c.s
+
+w12q4.o: w12q4.c.o
+.PHONY : w12q4.o
+
+# target to build an object file
+w12q4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/w12q4.c.o
+.PHONY : w12q4.c.o
+
+w12q4.i: w12q4.c.i
+.PHONY : w12q4.i
+
+# target to preprocess a source file
+w12q4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/w12q4.c.i
+.PHONY : w12q4.c.i
+
+w12q4.s: w12q4.c.s
+.PHONY : w12q4.s
+
+# target to generate assembly for a file
+w12q4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/w12q4.c.s
+.PHONY : w12q4.c.s
+
+w12q5.o: w12q5.c.o
+.PHONY : w12q5.o
+
+# target to build an object file
+w12q5.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/w12q5.c.o
+.PHONY : w12q5.c.o
+
+w12q5.i: w12q5.c.i
+.PHONY : w12q5.i
+
+# target to preprocess a source file
+w12q5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/w12q5.c.i
+.PHONY : w12q5.c.i
+
+w12q5.s: w12q5.c.s
+.PHONY : w12q5.s
+
+# target to generate assembly for a file
+w12q5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/w12q5.c.s
+.PHONY : w12q5.c.s
+
+w12q6.o: w12q6.c.o
+.PHONY : w12q6.o
+
+# target to build an object file
+w12q6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/w12q6.c.o
+.PHONY : w12q6.c.o
+
+w12q6.i: w12q6.c.i
+.PHONY : w12q6.i
+
+# target to preprocess a source file
+w12q6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/w12q6.c.i
+.PHONY : w12q6.c.i
+
+w12q6.s: w12q6.c.s
+.PHONY : w12q6.s
+
+# target to generate assembly for a file
+w12q6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/w12q6.c.s
+.PHONY : w12q6.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +261,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... w12q3.o"
+	@echo "... w12q3.i"
+	@echo "... w12q3.s"
+	@echo "... w12q4.o"
+	@echo "... w12q4.i"
+	@echo "... w12q4.s"
+	@echo "... w12q5.o"
+	@echo "... w12q5.i"
+	@echo "... w12q5.s"
+	@echo "... w12q6.o"
+	@echo "... w12q6.i"
+	@echo "... w12q6.s"
 .PHONY : help
 
 

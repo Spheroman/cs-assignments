@@ -1,5 +1,5 @@
-CMakeFiles/untitled.dir/main.c.o: \
-  /Users/jack/Documents/GitHub/cs-assignments/main.c \
+CMakeFiles/untitled.dir/w12q3.c.o: \
+  /Users/jack/Documents/GitHub/cs-assignments/w12q3.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/sys/cdefs.h \
