@@ -17,31 +17,31 @@ int main() {
             scanf("%i", &scores[i][j]);
         }
     }
-    int students[c][3];//0=total score, 1=passing score, 2=failed classes
+    int students[3];//0=total score, 1=passing score, 2=failed classes
     for(i = 0; i < c; i++){
         if(courses[i][1] != 0){//if we haven't already found the student
-            students[i][2]=0;
+            students[2]=0;
             temp = courses[i][1];
             for(j = i; j < c; j++) {//find same student id
                 if (courses[j][1] == temp) {//if its same
                     //printf("%i\n", temp);
-                    students[i][0]=0;
-                    students[i][1]=0;
+                    students[0]=0;
+                    students[1]=0;
                     for (k = 0; k < s; k++) {//calculate score for sid
                         if (courses[j][0] == scores[k][0]) {
-                            students[i][0] += scores[k][1];
-                            students[i][1] += 60;
+                            students[0] += scores[k][1];
+                            students[1] += 60;
                         }
                     }
-                    if(students[i][0] < students[i][1]){ //check if failed
-                        students[i][2]=1;
+                    if(students[0] < students[1]){ //check if failed
+                        students[2]=1;
                         //printf("fail %i, %i, %i\n", temp, students[i][0], students[i][1]);
                     }
                     courses[j][1]=0;//set student id = 0, so it doesn't get looped into again
                 }
             }
             //printf("check %i %i\n", temp, students[i][2]);
-            if(students[i][2]==1)
+            if(students[2]==1)
                 fail++;
             stud++;
         }
