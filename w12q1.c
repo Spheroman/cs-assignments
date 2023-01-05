@@ -28,6 +28,7 @@ int neighbors(int x, int y, char *board, int width, int height){
     return ctr;
 }
 
+
 char* checkstate(char *board, int width, int height){
     char *ret = (char *) malloc(height*width*sizeof(char));
     for(int y = 0; y < height; y++){

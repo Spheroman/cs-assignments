@@ -48,7 +48,7 @@ int func(char *in, int idx){
 
 }
 
-int mjain() {
+int main() {
     char in[1000];
     int i = 0;
     while((in[i] = getchar()) != EOF){
